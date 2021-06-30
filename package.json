@@ -1,0 +1,24 @@
+{
+  "name": "tdd-strict-equality",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KevinSalina/TDD-Strict-Equality.git"
+  },
+  "author": "Kevin Salina",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KevinSalina/TDD-Strict-Equality/issues"
+  },
+  "homepage": "https://github.com/KevinSalina/TDD-Strict-Equality#readme",
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "eslint": "^7.29.0",
+    "mocha": "^9.0.1"
+  }
+}
