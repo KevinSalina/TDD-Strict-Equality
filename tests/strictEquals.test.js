@@ -1,9 +1,11 @@
-const describe = require('mocha').describe
-const it = require('mocha').it
+const { describe, it, beforeEach } = require('mocha')
 const expect = require('chai').expect
 const strictEquals = require('../strictEquals.js')
 
 describe('StrictEquality', () => {
+  beforeEach(() => {
+    console.log('Starting Test')
+  })
   it('returns true if values provided are strictly equal', () => {
     // data to be tested
     let x = 5
