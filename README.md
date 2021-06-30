@@ -21,7 +21,9 @@ Big Focus Area: Writing Tests
 * HTML
 * CSS
 * JS
-*
+* Node
+* Mocha
+* Chai
 
 ### Third party code
 
